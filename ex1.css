@@ -1,0 +1,100 @@
+.pt1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    height: 400px;
+    gap: 5%;
+    margin: 5% 25%;
+}
+.pt-ART{
+    height: 90%;
+    background-color: #a3a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figcaption{
+    text-align: center;
+}
+/* ============================================================ */
+.pt2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.pt-ART2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 40%;
+    height: 400px;
+    margin: 5% 0% 0% 20%;
+    gap: 5%;
+}
+.pt-ART2{
+    background-color: #a3a3a3;
+    color: #a3a3a3;
+}
+.pt-ART21{
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
+    margin-left: 1%;
+    padding: 0.3%;
+    /* gap: 0.5em; */
+    width: 20%;
+    background-color: #ffacac;
+}
+.pt-ART21 div{
+    width: 100%;
+    height: 49%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3a3a3;
+    color: black;
+}
+/* ============================================================ */
+.pt3{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0% 5% 0%;
+    width: 100%;
+    height: 350px;
+}
+.pt-ART3{
+    grid-template-columns: 1fr;
+    background-color: #a3a3a3;
+    color: #a3a3a3;
+    margin-left: 25%;
+    width: 20%;
+}
+.pt-ART31{
+    display: flex;  
+    flex-wrap: wrap;
+    width: 15%;
+    height: 100%;
+    gap: 5%;
+    margin-left: 0.5%;
+}
+.pt-ART31 div{
+    display: flex;
+    /* flex: 0 0 calc(50% - 10px); */
+    flex-basis: calc(50% - 10px);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: #a3a3a3;
+    color: black;
+}
+.pt-ART31 .legenda{
+    display: flex;
+    /* flex: 0 0 calc(50% - 10px); */
+    flex-basis: calc(50% - 10px);
+    justify-content:  left;
+    align-items:center;
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    color: black;
+}
